@@ -1,0 +1,83 @@
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
+html.show{
+	height: 100%;
+	overflow: hidden;
+}
+
+.dropdown-menu.menu-block {
+  min-width:auto;
+  width:100%;
+}
+.container-fluid.maxWidth{
+	max-width: 1280px;
+}
+
+.row.category .category-container .row{
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+	display: block;
+}
+
+.row.category .category-container .row:first-child{
+	-webkit-animation: none;
+    animation: none;
+}
+
+.row.category .category-container .row.hidden{
+	display: none;
+}
+.row.category .category-container .row.visible{
+	display: block;
+}
+
+body#frameset{
+	height: 100%;
+}
+#view-frame{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+.account-options table td:first-child,
+.account-options table th:first-child{
+	text-align: left;
+}
+.account-options table td,
+.account-options table th{
+	text-align: center;
+}
+
+.account-options .checkbox{
+	margin:0px;
+}
+
+img.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+img.fullWidth{
+	width: 100%;
+}
+.article-link{
+	display:block;	
+}
